@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+nav h1{
+    font-size: 40px;
+   
+ 
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+nav button{
+    padding: 15px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid #000 ;
+}
+
+nav h1 i{
+    rotate:45deg;
+    display: inline-block;
+    font-size: 45px;
+  
+}
+
+.center{
+    
+    height: 85%;
+    width: 100%;
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 50%;
+    padding: 40px 55px;
+    font-size: 25px;
+    line-height: 1.3;
+   
+    
+    
+    
+}
+
+.center-part2{
+    
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.center-part1 p{
+    padding-top: 40px;
+    font-size: 20px;
+     line-height: 1.4;
+   
+}
+
+ .center-part1 button{
+    font-size: 16px;
+    padding: 20px 45px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    margin-top: 5%;
+
+
+ }
+ .center-part2 img{
+    height: 73%;
+    position:absolute;
+    left: 15%;
+    top: 10%;
+ }
+
+#sectionbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 10px;
+}
+
+#sectionbottom img{
+    height: 100px;
+}
+
+  #netflix{
+
+height: 100px;
+width: 17%; 
+ 
+  }
+
+
+  .section2 .services{
+    padding: 50px 50px;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    margin-top: 15%;
+  }
+  
+   .services h3{
+    font-weight:800;
+    font-size: 35px;
+    padding: 10px 10px;
+    background-color:#9ff179 ;
+   }
+
+
+   .services p{
+    font-size: 20px;
+    padding: 10px 40px;
+   }
+
+   .container{
+    height: 100%;
+    width: 100%;
+    padding: 40px 120px ;
+      display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  gap: 5rem;
+
+ 
+
+   }
+
+   .elem{
+    flex-shrink: 0;
+    height: 250px;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 10px;
+  
+    box-shadow: 0px 10px 0px black; 
+
+   }
+   
+ 
+ .elem-part1 h2{
+ padding: 30px 30px;
+ font-size: 25px;
+ font-weight: 800;
+
+ }
+
+ .elem-part1 h4{
+    padding: 70px 30px;
+      display: flex;
+  gap: 1rem;
+ }
+
+ .elem-part1 img{
+     
+    height: 85%;
+    width: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+
+     
+     
+
+ }
+
+
+
+  .elem-part2{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+
+  .elem-part2 h2{
+ padding: 30px 30px;
+ font-size: 25px;
+ font-weight: 800;
+ color: #fff;
+
+ }
+
+ .elem-part2 h4{
+    padding: 50px 30px;
+    color: #fff;
+    display: flex;
+  gap: 1rem;
+ }
+
+ .elem-part2 img{
+     
+    height: 68%;
+    width: 40%;
+    position: absolute;
+    bottom: 15%;
+    left: 53%;
+     
+ }
+
+
+
+
+
+  .elem-part3{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+
+
+   .elem-part3 h2{
+ padding: 30px 30px;
+ font-size: 25px;
+ font-weight: 800;
+ color: #fff;
+
+ }
+
+ .elem-part3 h4{
+    padding: 70px 30px;
+    color: #fff;
+      display: flex;
+  gap: 1rem;
+ }
+
+ .elem-part3 img{
+     
+     height: 68%;
+    width: 40%;
+    position: absolute;
+    left: 53%;
+    bottom:15%;
+  
+  
+    
+ 
+   
+     
+ }
+
+
+ 
+
+  .elem-part4 h2{
+ padding: 30px 30px;
+ font-size: 25px;
+ font-weight: 800;
+
+ }
+
+ .elem-part4 h4{
+    padding: 70px 30px;
+      display: flex;
+  gap: 1rem;
+ }
+
+ .elem-part4 img{
+     
+       height: 90%;
+    width: 53%;
+    position: absolute;
+    left:45%;
+    bottom:5%;
+  
+   
+     
+ }
+
+ 
